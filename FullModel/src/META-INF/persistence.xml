@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd" version="2.0">
+  <persistence-unit name="FullModel">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>java:/app/jdbc/jdbc/ngstbConnDS</jta-data-source>
+    <class>cz.o2.vs.Category</class>
+    <class>cz.o2.vs.HistoryEven</class>
+    <class>cz.o2.vs.HistoryOdd</class>
+    <class>cz.o2.vs.ImageStb</class>
+    <class>cz.o2.vs.Model</class>
+    <class>cz.o2.vs.RegisterFw</class>
+    <class>cz.o2.vs.Stb</class>
+    <properties>
+      <property name="eclipselink.target-server" value="WebLogic_10"/>
+      <property name="javax.persistence.jtaDataSource" value="java:/app/jdbc/jdbc/ngstbConnDS"/>
+    </properties>
+  </persistence-unit>
+</persistence>

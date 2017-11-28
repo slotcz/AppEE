@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProviderSettings xmlns="http://xmlns.oracle.com/ide/hash">
+   <hash n="dataTypeSettings">
+      <value n="databaseType" v="MySQL"/>
+      <value n="databaseVersion" v="50"/>
+   </hash>
+   <value n="id" v="4a31a764-be8c-4864-8ba1-4aca69a42947"/>
+   <value n="name" v="ngstbConn"/>
+</ProviderSettings>
